@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+#logo{
+    display: block;
+    margin: 10px auto;
+    width: 500px;
+}
+
+#navBar{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    background: #AA9950;
+    margin: 10px auto;
+    color: white;
+    align-items: center;
+    height: 2em;
+}
+
+.navButton{
+    background: linear-gradient(90deg, #AA9950, #7C6C2A);
+    display: flex;
+    flex-wrap: none;
+    word-wrap: none;
+    height: 2em;
+    width: auto;
+    align-items: center;
+    padding: 10px 6.5%;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+#servicesContainer {
+    text-align: center;
+}
+
+.serviceList {
+    display: inline-flex;
+}
+
+#mainContainer{
+    display: flex;
+    width: 100%;
+    color: white;
+}
+
+.title{
+    color: white;
+    text-align: center;
+}
+
+#destinations{
+    background: #356835;
+    width: 75%;
+    margin: 10px;
+  
+
+}
+
+.imageContainer{
+    display: flex;
+    justify-content: space-around;
+    background: #356835;
+    margin: 10px;
+    flex-wrap: none;
+}
+
+.destinationsImages{
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    padding: 5px;
+}
+
+.area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white
+}
+
+#guestList{
+ background: #4B95E0;
+ color: white;
+ width: 25%;
+ margin: 10px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
